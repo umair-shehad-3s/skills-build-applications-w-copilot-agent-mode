@@ -1,4 +1,13 @@
-.DS_Store
+# Ignore Python virtual environments and caches
+octofit-tracker/backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+dist/
+build/.DS_Store
 
 # Virtual Environment
 venv
